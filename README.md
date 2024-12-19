@@ -1,6 +1,6 @@
 # RAS Data Analysis
 
-This repository contains a Jupyter Notebook focused on analyzing contract and search data generated since January 2020. The analysis explores trends, data completeness, and patterns in key metrics such as contract billing, search creation, and hours reported.
+This repository contains a Jupyter Notebook focused on an initial analysis of CRM data to explore trends, data completeness, and understand key metrics. 
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -14,13 +14,12 @@ This repository contains a Jupyter Notebook focused on analyzing contract and se
 ---
 
 ## Project Overview
+This is part one of a lareger project. The overall project goal is to create a “scorecard” methodology for weighing searches by category, by likelihood of leading to contract, by difficulty.
+The first phase is to explore the data to gain an understanding of key variables and dependencies.
 This project provides a detailed analysis of:
-- Trends in searches and contracts created since 2020.
-- Data completeness by analyzing missing values.
+- Data completeness.
+- Search for trends in searches and contracts over a five year timeframe.
 - Insights into contract billing and hours reported.
-- Month-by-month distributions of searches, contracts, and hours billed.
-
-The goal is to gain actionable insights into business trends.
 
 ---
 
@@ -28,6 +27,7 @@ The goal is to gain actionable insights into business trends.
 The dataset includes:
 - Searches created after January 1, 2020.
 - Contract and billing information, including:
+  - Division
   - Search Stage
   - Type of Case
   - Subject
