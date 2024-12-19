@@ -70,19 +70,30 @@ The analysis uses the following Python libraries:
 ---
 
 ## Visualizations
-The notebook provides several visualizations, including:
+The notebook provides several visualizations to explore the following questions:
 
-- Scatter Plots: Displaying hours reported vs. billing dates.
-- Bar Charts: Showing the distribution of searches, contracts, and hours reported by categories and months.
-- Histograms: Analyzing contract durations and hours reported.
-- Line Plots: Visualizing trends in hours reported over time.
+- Scatterplot: What is the duration of active contracts? Is there a trend to length of a contract and the amount of hours reported?
+- Lineplot: Are hours reported consistent or are there outliers?
+- Countplot: Is there seasonality with the number of contracts reporting hours? The number of contracts initiated? The number of searches     initiated?
+- Histogram: What is the distribution of contract duration?
+- Barplot: Are there trends in the categorical data? (Division, Source, Type of Case, Subject)
+
+---
+
+## Conclusions
+-  Hours data appears to be missing for some 2020 and 2021 contracts
+-  Majority of monthy hour reports for both divisions are below 10
+-  Contracts bill over multiple years
+-  Everything seems to slow down towards the end of the year
+-  Tech and Pharma are the most common
+-  Tech and Electro menchanical design have the highest average 
 
 ---
 
 ## Next Steps
 - Update the dataset with missing hours data from 2020 and 2021.
 - Rerun the analysis to validate conclusions.
-- Compare metrics across case types and subjects.
+- Do a deep dive to compare metrics across case types, subjects and division.
 
 ---
 
@@ -92,7 +103,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ---
 
 ## Acknowledgments
-The data used in this analysis was sourced from "Lyn's folder," generated on August 2, 2024. Special thanks to team members for their support in data collection and initial exploration.
+The data used in this analysis was generated on August 2, 2024. Special thanks to team member Christopher for his support in data collection and initial exploration.
 
 ---
 
