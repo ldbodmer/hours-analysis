@@ -1,6 +1,6 @@
 # RAS Data Analysis
 
-This repository contains a Jupyter Notebook focused on an initial analysis of CRM data to explore trends, data completeness, and understand key metrics. 
+This repository contains a Jupyter Notebook focused on an exploratory analysis of CRM data to identify trends, data completeness, and understand key metrics. 
 
 ## Table of Contents
 - [Project Overview](#project-overview)
